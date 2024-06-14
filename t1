@@ -43,7 +43,7 @@
 <body>
     <div id="timer">
         <div class="days"> 
-            <div id="days" class="numbers "> </div>days</div> 
+            <div id="days" class="numbers"> </div>days</div> 
         <div class="hours"> 
             <div id="hours" class="numbers"> </div>hours</div> 
     </div>
@@ -63,6 +63,6 @@
         // display
         document.getElementById("days").innerHTML = days;
         document.getElementById("hours").innerHTML = hours;
-    }, 1);
+    }, 1000); // 1초마다 업데이트
 </script>
 </html>
